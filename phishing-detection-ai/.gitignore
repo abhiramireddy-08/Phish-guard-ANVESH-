@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+frontend/build/
+*.egg-info/
+dist/
+
+# Environment files
+.env
+backend/.env
+ml/.env
+
+# ML models (large files — use Git LFS)
+ml/models/*.pkl
+ml/models/*.pt
+ml/models/*.h5
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker volumes
+postgres_data/
